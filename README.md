@@ -6,5 +6,13 @@ Small gradient descent plotting script I made as part of my Mathematical Analysi
  and the gradient descent algorithm for finding its minimum
   (x_(k+1), y_(k+1)) = (x_k, y_k) − s_k* ∇f (x_k, y_k),
  where the step size s_k > 0 is chosen (exact line search) to minimize the function
-  ϕ(s) = f (xk+1, yk+1) = f ((xk, yk) − s∇f (xk, yk)), ϕ′(sk) = 0.
+  ϕ(s) = f (x_(k+1), y_(k+1)) = f ((x_k, y_k) − s*∇f (x_k, y_k)), ϕ′(s_k) = 0.
   For b = 1, 1/2 , 1/5 , 1/10, plot some gradient descent iterations and the relevant contour lines of f .
+
+# How we go about solving this
+∇f = (f1, f2), where f1: R → R, f1(x) = d(1/2*x^2+ 1/2*b*y^2)/dx = x 
+                      f2: R → R, f1(y) = d(1/2*x^2+ 1/2*b*y^2)/dy = b*y
+∇f gives us the direction in which we must move to minimise the function, while s_k gives us the size of the step.
+We pick s_k so that each step is perpendicular on the one before and the one after.
+ϕ is a helper function which allows us make sure that the steps are perpendicullar on eachother.
+From Analysis we know that always the fastest way to descend is directly perpendicullar on the level curve
