@@ -1,4 +1,4 @@
-# UniWorkSem1-GradientDescent
+# Mathematical Analysis Python Gradient Descent Script
 Small gradient descent plotting script I made as part of my Mathematical Analysis Course during my first semester of univeristy.
 
 # Here is the assignment text
