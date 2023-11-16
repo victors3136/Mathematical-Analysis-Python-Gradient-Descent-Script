@@ -16,3 +16,11 @@ Small gradient descent plotting script I made as part of my Mathematical Analysi
 We pick s_k so that each step is perpendicular on the one before and the one after.
 ϕ is a helper function which allows us make sure that the steps are perpendicullar on eachother.
 From Analysis we know that always the fastest way to descend is directly perpendicullar on the level curve
+
+# Example output
+![image](https://github.com/victors3136/UniWorkSem1-GradientDescent/assets/115093754/d329c54c-617b-433d-a492-3bfb7f13b684)
+![image](https://github.com/victors3136/UniWorkSem1-GradientDescent/assets/115093754/024e7f8d-bcae-4454-906d-656483c88ed3)
+![image](https://github.com/victors3136/UniWorkSem1-GradientDescent/assets/115093754/8d301b94-66c2-48c6-afbf-98c343b3f948)
+
+
+
